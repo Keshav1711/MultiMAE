@@ -31,7 +31,7 @@ fp32_output_adapters: semseg
 data_path: '/path/to/dataset' # Change me
 
 # Wandb logging
-log_wandb: True # Set to True to log to Weights & Biases
+log_wandb: False # Set to True to log to Weights & Biases
 wandb_project: 'multimae-pretrain'
 wandb_entity: null # Change if needed
 wandb_run_name: multimae-b_98_rgb+-depth-semseg_400e
